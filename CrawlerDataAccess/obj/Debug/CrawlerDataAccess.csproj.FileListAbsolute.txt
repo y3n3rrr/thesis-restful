@@ -1,0 +1,17 @@
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\obj\Debug\CrawlerDataAccess.csproj.CoreCompileInputs.cache
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\CrawlerDataAccess.dll.config
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\CrawlerDataAccess.dll
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\CrawlerDataAccess.pdb
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\EntityFramework.dll
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\Newtonsoft.Json.dll
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\PostSharp.dll
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\EntityFramework.xml
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\Newtonsoft.Json.xml
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\PostSharp.xml
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\bin\Debug\CrawlerDataAccess.pssym
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\obj\Debug\CrawlerDataAccess.dll.postsharp
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\obj\Debug\CrawlerDataAccess.dll
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\obj\Debug\CrawlerDataAccess.pdb
+c:\users\yener\source\repos\ThesisApp\CrawlerDataAccess\obj\Debug\PostSharpHost.config
