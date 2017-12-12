@@ -12,7 +12,7 @@ namespace ThesisApp.Controllers
         {
             ViewBag.Title = "Home Page";
 
-            return View();
+            return null;
         }
     }
 }
