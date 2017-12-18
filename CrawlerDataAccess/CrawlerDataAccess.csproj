@@ -68,6 +68,7 @@
     <Compile Include="Infrastructure\Aspect\ExceptionAspect.cs" />
     <Compile Include="Infrastructure\Helpers\DummyData.cs" />
     <Compile Include="Infrastructure\Helpers\Encrypter.cs" />
+    <Compile Include="Infrastructure\Helpers\FileHelper.cs" />
     <Compile Include="Infrastructure\Helpers\JsonHandler.cs" />
     <Compile Include="Infrastructure\Helpers\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

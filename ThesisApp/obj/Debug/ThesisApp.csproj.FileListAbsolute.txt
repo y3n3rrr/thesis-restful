@@ -210,3 +210,15 @@ D:\GitHub\ThesisApp\ThesisApp\obj\Debug\ThesisApp.csprojResolveAssemblyReference
 D:\GitHub\ThesisApp\ThesisApp\obj\Debug\ThesisApp.csproj.CoreCompileInputs.cache
 D:\GitHub\ThesisApp\ThesisApp\obj\Debug\ThesisApp.dll
 D:\GitHub\ThesisApp\ThesisApp\obj\Debug\ThesisApp.pdb
+D:\GitHub\ThesisApp\ThesisApp\bin\Microsoft.Threading.Tasks.dll
+D:\GitHub\ThesisApp\ThesisApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\GitHub\ThesisApp\ThesisApp\bin\Microsoft.Threading.Tasks.Extensions.dll
+D:\GitHub\ThesisApp\ThesisApp\bin\System.Net.Http.Extensions.dll
+D:\GitHub\ThesisApp\ThesisApp\bin\System.Net.Http.Primitives.dll
+D:\GitHub\ThesisApp\ThesisApp\bin\unirest-net.dll
+D:\GitHub\ThesisApp\ThesisApp\bin\Microsoft.Threading.Tasks.xml
+D:\GitHub\ThesisApp\ThesisApp\bin\Microsoft.Threading.Tasks.Extensions.xml
+D:\GitHub\ThesisApp\ThesisApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\GitHub\ThesisApp\ThesisApp\bin\System.Net.Http.Extensions.xml
+D:\GitHub\ThesisApp\ThesisApp\bin\System.Net.Http.Primitives.xml
+D:\GitHub\ThesisApp\ThesisApp\obj\Debug\ThesisApp.csproj.App.config

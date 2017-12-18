@@ -13,14 +13,17 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
+using unirest_net.http;
 
 namespace ThesisApp.Controllers
 {
     public class UploadController : ApiController
     {
+        const string API_Key= "CT7KKp0OHCmshfLm48OIe8AL6Lo3p19aWkjjsnUXkuzdLQ1A7D";
         [HttpPost, Route("api/upload")]
         public async Task<HttpResponseMessage> Upload()
         {
+            
             if (!Request.Content.IsMimeMultipartContent())
                 throw new HttpResponseException(HttpStatusCode.UnsupportedMediaType);
 
@@ -36,14 +39,61 @@ namespace ThesisApp.Controllers
 
                 var stream = new MemoryStream(buffer);
 
-
-                var path = @"D:\GitHub\ThesisApp\ThesisApp\Uploads\"+ filename;
+                recognize(FileHelper.generatePath(filename));
+                var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Uploads/" + filename);
                 using (var fileStream = System.IO.File.Create(path))
                 {
-                    stream.CopyTo(fileStream);
+                    //stream.CopyTo(fileStream);
+                    
                 }
             }
             return Request.CreateResponse(HttpStatusCode.OK, new { JsonResponse= new JsonHandler { Data = "", Message = "Kayit basarili", Success = true }, success = true });
+        }
+
+        public void trainApi(string url)
+        {
+            try
+            {
+                HttpResponse<dynamic> response = Unirest.post("https://meerkat-frapi.p.mashape.com/train/person")
+            .header("X-Mashape-Key", "CT7KKp0OHCmshfLm48OIe8AL6Lo3p19aWkjjsnUXkuzdLQ1A7D")
+            .header("api_key", "key1")
+            .field("image", File.ReadAllBytes(url))
+            .field("label", "yener")
+            .asJson<dynamic>();
+                int a = 0;
+                while (response == null)
+                {
+                    a++;
+                    continue;
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
+
+
+        public void recognize(string url)
+        {
+            try
+            {
+                HttpResponse<dynamic> response = Unirest.post("https://meerkat-frapi.p.mashape.com/recognize/people")
+             .header("X-Mashape-Key", "CT7KKp0OHCmshfLm48OIe8AL6Lo3p19aWkjjsnUXkuzdLQ1A7D")
+             .header("api_key", "key1")
+             .field("image", File.ReadAllBytes(url))
+             .asJson<dynamic>();
+                int a = 0;
+                while (response == null)
+                {
+                    a++;
+                    continue;
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
         [HttpPost]
         public HttpResponseMessage UploadFile(int a)//[FromBody]Comment comment
